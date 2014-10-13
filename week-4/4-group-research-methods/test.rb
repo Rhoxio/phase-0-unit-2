@@ -30,15 +30,6 @@ end
 
 my_hash_finding_method(my_family_pets_ages, 3)
 
-=begin
-	
-I used # select, #include? and #each. Select was used to find what the block
-was "looking for" with #include?. 
-
-#each was used to iterate over the block for all values in the array. 
-	
-=end
-
 
 
 # Person 2 - Gaille
@@ -120,15 +111,17 @@ p my_array_deletion_method(i_want_pets, "a") == ["I", 4, "pets", "but", "only", 
 p my_hash_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie" => 5, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
 
 
+
+# Release 1: Identify and describe the ruby method you implemented. Teach your
+# accountability group how to use the methods.
+#
+#
+#
+
+
 # Release 4: Reflect!
 # What did you learn about researching and explaining your research to others?
-
-=begin
-	
-I have always found it easy to explain my train of thought to others when it comes
-to anything, but coding is slightly different. I think a lot of it is that I am not
-quite comfortable with the vocabulary yet. I understand how the logic flows, but being
-able to essentially sight-read code is not a skill I have acquired yet. I still
-feel like I have to tinker with it a little bit. 
-	
-=end
+#
+#
+#
+#

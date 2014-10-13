@@ -1,10 +1,3 @@
-# U2.W4: Create Accountability Groups
-
-
-# I worked on this challenge [by myself].
-
-# 0. Pseudocode
-
 =begin
 
 Pseudo-planning:
@@ -80,8 +73,6 @@ shuffle
 algorithm
 print_groups
 
-# 3. Reflection
-
 =begin
  I attempted to make the program as dynamic as possible. I could have potentially made it
  so the input for the method "values" could be simply linked to another array with a different name.
@@ -91,12 +82,3 @@ print_groups
  You could insert any size of array and still get groups of 4 ordered correctly with the remaining 
  people slotted in to their own group at the end. 
  =end
-
-
-
-
-
-
-
-
-
