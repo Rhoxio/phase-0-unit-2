@@ -1,9 +1,8 @@
-# RELEASE TWO:
+# Release 3:
 
 class Profile
-
-  attr_reader :age
-  attr_writer :age
+# here is the change, we combined the attr_writer and attr_reader into one declaration: attr_accessor
+  attr_accessor :age
 
   def initialize
     @age = 27
@@ -20,6 +19,11 @@ class Profile
     puts "occupation: #{@occupation}"
     puts
   end
+
+  # This code is no longer needed.
+  # def what_is_age
+  #   @age
+  # end
 
   # This code is no longer needed
   # def change_my_age=(new_age)
@@ -46,7 +50,6 @@ class Profile
 end
 
 instance_of_profile = Profile.new
-
 puts "--- printing age -----"
 sleep 0.8
 p instance_of_profile.age
@@ -65,7 +68,7 @@ puts "--- changing profile information ----"
   sleep 0.1
 end
 
-instance_of_profile.age = 28 # This method has changed! See the difference?
+instance_of_profile.age = 28
 instance_of_profile.change_my_name = "Taylor"
 instance_of_profile.change_my_occupation = "Rare Coins Trader"
 

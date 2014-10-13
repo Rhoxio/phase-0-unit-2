@@ -12,7 +12,7 @@ You've had a LOT of practice with ruby classes this week, so now is the time to 
 Remember to time-box to about an hour for each blog post!
 
 ## Release 0: New File
-Copy your blog tempate into a new HTML file named `week5_technical.html`.
+Copy your blog template into a new HTML file in your blog directory named `t5-ruby-classes.html`.
 
 ## Release 1: Topic
 Create an example class and teach others when to use instance variables, instance methods, etc. for that object.
@@ -21,12 +21,12 @@ Create an example class and teach others when to use instance variables, instanc
 Write a blog post about the class you designed. This is part of your portfolio that will help set you apart to employers when you graduate, so have fun and show your enthusiasm!
 
 ## Release 3: Publish
-Link to your blog on the blog-posts/index.html of your site and push your changes.
+Link to your blog on the blog/index.html of your site and push your changes.
 
 ## Release 4: Promote
-Now it's time to show off your work and share your knowledge with your cohortmates using Twitter!
+Now it's time to show off your work and share your knowledge with your cohort-mates using Twitter!
 
-Tweet your blog post using #DBCClass
+Tweet your blog post using **#DBCClass**.
 
 ## Release 5: Read
 Read at least one post another student wrote. Give the author A.S.K (Actionable, specific, and kind) feedback as an issue on their repo or a tweet!

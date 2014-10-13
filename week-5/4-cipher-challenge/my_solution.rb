@@ -6,7 +6,7 @@
 
 
 # 1. Solution
-# Write your comments on what each thing is doing. 
+# Write your comments on what each thing is doing.
 # If you have difficulty, go into IRB and play with the methods.
 
 
@@ -16,9 +16,9 @@ def north_korean_cipher(coded_message)
   decoded_sentence = []
   cipher = {"e" => "a",   # This is technically a shift of four letters...Can you think of a way to automate this? Is a hash
             "f" => "b",   # the best data structure for this problem? What are the pros and cons of hashes?
-            "g" => "c", 
-            "h" => "d", 
-            "i" => "e", 
+            "g" => "c",
+            "h" => "d",
+            "i" => "e",
             "j" => "f",
             "k" => "g",
             "l" => "h",
@@ -40,7 +40,7 @@ def north_korean_cipher(coded_message)
             "b" => "x",
             "c" => "y",
             "d" => "z"}
-            
+
   input.each do |x| # What is #each doing here?
     found_match = false  # Why would this be assigned to false from the outset? What happens when it's true?
     cipher.each_key do |y| # What is #each_key doing here?
@@ -57,18 +57,18 @@ def north_korean_cipher(coded_message)
         decoded_sentence << x
         found_match = true
         break
-      end 
+      end
     end
     if not found_match  # What is this looking for?
       decoded_sentence << x
     end
   end
   decoded_sentence = decoded_sentence.join("")
- 
-  if decoded_sentence.match(/\d+/) #What is this matching? Look at Rubular for help. 
+
+  if decoded_sentence.match(/\d+/) #What is this matching? Look at Rubular for help.
     decoded_sentence.gsub!(/\d+/) { |num| num.to_i / 100 } #He's been known to exaggerate...
-  end  
-  return decoded_sentence # What is this returning?        
+  end
+  return decoded_sentence # What is this returning?
 end
 
 # Your Refactored Solution
@@ -87,4 +87,4 @@ p north_korean_cipher("ribx^wxst:$wsyxl%osvie,$xlir$neter,#xlir%xli%asvph!")
 p north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw?")
 
 # Reflection
- 
+# Keep your reflection limited to 10-15 minutes!

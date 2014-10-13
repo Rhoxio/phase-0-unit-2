@@ -2,11 +2,9 @@
 
 # U2.W5: Class Warfare, Validate a Credit Card Number
 
-
 ## Learning Competencies
-- Iterate through data structures
-- Manipulate data within data structures
-- Decompose a problem into smaller, easier to solve components
+- Iterate and manipulate data in data structures
+- Break a large problem down into smaller steps
 - Find and use built-in Ruby methods to solve challenges
 
 
@@ -21,7 +19,7 @@ While the word [algorithm](http://en.wikipedia.org/wiki/Algorithm) sounds scary 
 
 The above steps if followed explicitly give us cooked pasta!
 
-For this challenge, we will need to break down the algorithm into the following steps. You will probably want to break these down into individual methods. 
+For this challenge, we will need to break down the algorithm into the following steps. You will probably want to break these down into individual methods.
 
 1. Starting with the second to last digit, double every other digit until you reach the first digit
 
@@ -40,21 +38,25 @@ Step 4: Profit
 
 Your class will need to return `true` or `false` when we call the `#check_card`.  Your class needs to be initialized with a credit card number that is exactly 16 digits otherwise you should receive an `ArgumentError`.
 
-Make sure you pseudocode! These are big steps and they are a bit complicated, so break it down. You should be able to explain every line you write here!
+## Release 0: [Pseudocode](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/pseudocode.md)
 
-## Release 0: Run the Tests
- 
-## Release 1: Translate the tests
-Translate at least 3 of the tests into [Driver Test Code](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/driver-code.md) and include it in the driver test code section. If the tests are failing to catch a problem, try writing your own driver test code for it. 
+Make sure to do this! These are big steps and they are a bit complicated, so break them down.
 
-## Release 2: [Pseudocode](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/pseudocode.md)
+## Release 1: [Initial Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/initial-solution.md)
 
-## Release 3: [Initial Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/initial-solution.md)
+Make sure your code passes the tests before moving on.
 
-## Release 4: [Refactored Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md)
+## Release 2: Translate the tests
 
-## Release 5: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
+Translate at least 3 of the tests into [Driver Test Code](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/driver-code.md) and include it in the driver test code section. If the tests are failing to catch a problem, try writing your own driver test code for it.
 
-## Release 6: Push your solution to Github
+## Release 3: [Refactor](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md) your solution
 
-## Release 7: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md)
+Make sure your code still passes the tests!
+
+## Release 4: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
+
+## Release 5: Push your solution to Github
+
+## Release 6: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md) (Optional)
+**Optional but HIGHLY encouraged!**

@@ -1,6 +1,8 @@
-#RELEASE ZER0
+# Release 1: comment above code and uncomment  lines 51-82 (protip, command + / comments and uncomments selected code)
 
 class Profile
+
+  attr_reader :age
 
   def initialize
     @age = 27
@@ -18,11 +20,11 @@ class Profile
     puts
   end
 
-  def what_is_age
-    @age
-  end
+  #this code is no longer needed.
+  # def what_is_age
+  #   @age
+  # end
 
- # the change_my_age= syntax might be confusing to see, it just allows us to set the value of the @age variable using = format instead of the standard argument format. Look at line 39 to see what I mean. The equals sign is just a part of the method name string, nothing special going on here.
   def change_my_age=(new_age)
     @age = new_age
   end
@@ -34,7 +36,6 @@ class Profile
   def change_my_name=(new_name)
     @name = new_name
   end
-
 
   def what_is_occupation
     @occupation
@@ -49,10 +50,12 @@ end
 
 instance_of_profile = Profile.new
 
-# I have to use p here because what_is_age only returns the value of @number, it does not print anything to the console. The p modifier prints to the console whatever value is returned. Nifty!
+# This method changed names! Now we have a method called #.age which returns the value of @age, just like what_is_age did. Thanks to attr_reader :age. If you don't believe me and you want to see for your self, paste lines 3 - 50 into IRB and type
+# instance_of_profile.methods - Object.methods
+#age() will be a member of this list!
 puts "--- printing age -----"
-sleep 0.8 # sleep so the program takes a pause instead of just running through
-p instance_of_profile.what_is_age # here we expect age to be 27
+sleep 0.8
+p instance_of_profile.age
 
 puts "--- printing name ----"
 sleep 0.8
@@ -63,16 +66,16 @@ sleep 0.8
 p instance_of_profile.what_is_occupation
 
 puts "--- changing profile information ----"
-10.times do # because we fancy
+10.times do
   print "."
   sleep 0.1
 end
 
-instance_of_profile.change_my_age = 28 # happy birthday! you aged one year
+instance_of_profile.change_my_age = 28
 instance_of_profile.change_my_name = "Taylor"
 instance_of_profile.change_my_occupation = "Rare Coins Trader"
 
 puts
 puts "---- printing all profile info -----"
 sleep 0.8
-instance_of_profile.print_info  #Let's see the final product now. We changed all of the values using setters, so everything is different than before.
+instance_of_profile.print_info

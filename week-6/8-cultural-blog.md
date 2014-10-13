@@ -12,11 +12,11 @@ to suffer from impostor syndrome or stereotype threat depending on your backgrou
 
 ## Release 0: Create the Template
 
-Create a new HTML file in your blog-posts [USERNAME].github.io website. Name it `week6_cultural_blog.html`. Copy the Code from your `blog_template`.
+In your [USERNAME].github.io/blog directory, copy your blog template into a new HTML file named `c6-stereotype-threat.html`.
 
 ## Release 1: Research
 
-Claude M. Steele has spent his life researching minority underachievement and developed a theory called "Stereotype Threat." Conduct your own research about stereotype threat. Identify times when you felt it. How did it affect your achievement? What questions did you ask yourself? Did you feel it physically? If you don't think you've ever felt it, can you imagine some groups that might? What could you do to help others in that situation?
+Claude M. Steele has spent his life researching minority under-achievement and developed a theory called "Stereotype Threat." Conduct your own research about stereotype threat. Identify times when you felt it. How did it affect your achievement? What questions did you ask yourself? Did you feel it physically? If you don't think you've ever felt it, can you imagine some groups that might? What could you do to help others in that situation?
 
 #### Example Resources:
 - [Whistling Vivaldi (book)](http://www.amazon.com/Whistling-Vivaldi-Stereotypes-Affect-Issues/dp/0393339726) - If you have quite a bit of time and want to go well beyond an hour.
@@ -32,10 +32,10 @@ In your post, describe your experiences with stereotype threat and how it affect
 Go into as much depth feels comfortable for you.
 
 ## Release 3: Publish
-Link to your blog on the blog-posts/index.html of your site and push your changes.
+Link to your blog on the blog/index.html of your site and push your changes.
 
 ## Release 4: Promote
-Now it's time to show off your work and share your knowledge with your cohortmates using Twitter!
+Now it's time to show off your work and share your knowledge with your cohort-mates using Twitter!
 
 Tweet your blog post using **#DBCStereotypeThreat.**
 

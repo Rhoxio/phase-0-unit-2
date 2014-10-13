@@ -9,7 +9,7 @@
 You've learned a bit about object-oriented programming this week, but there is still a ton to learn. In this challenge, select one topic below and do a bit of research on them. Then write a blog post about what you've learned. Remember to time-box to about an hour for each blog post!
 
 ## Release 0: New Template
-Copy your blog tempate into a new HTML file named `week6_technical.html`.
+In your [USERNAME].github.io/blog directory, copy your blog template into a new HTML file named `t7-oop-concepts.html`.
 
 ## Release 1: Research
 Select and research one of the topics below:
@@ -36,13 +36,12 @@ What is ruby inheritance? What is composition? Which have you used this week? Cr
 Write a blog post that teaches your audience about the topic. Think of examples to use to teach and SHOW your audience what you are describing.
 
 ## Release 3: Publish
-Link to your blog on the blog-posts/index.html of your site and push your changes.
+Link to your blog on the blog/index.html of your site and push your changes.
 
 ## Release 4: Promote
-Now it's time to show off your work and share your knowledge with your cohortmates using Twitter!
+Now it's time to show off your work and share your knowledge with your cohort-mates using Twitter!
 
 Tweet your blog post using the hashtag **#DBCConcepts**.
 
 ## Release 5: Read
 Read at least one other person's post on a topic you're interested in. Give the author A.S.K (Actionable, specific, and kind) feedback as an issue on their repo or a tweet!
-

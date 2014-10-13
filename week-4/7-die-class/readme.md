@@ -25,7 +25,7 @@ Use the [Ruby Docs](http://www.ruby-doc.org/) to see how to return a random numb
 Before starting this challenge, you will want to read a bit about classes and ruby objects. Try one or two of these:
 - [Writing our own Class in Ruby](http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html)
 - [Ruby Classes and Objects](http://www.tutorialspoint.com/ruby/ruby_classes.htm)
-- [The Well-Grounded Rubyist (Book)](http://www.manning.com/black2/)ch. 3 (read week 3's [BONUS challenge](https://github.com/Devbootcamp/phase-0-unit-1/blob/master/week-3/10-BONUS-challenges/Well-Grounded-Rubyist.md) for a discount code)
+- [The Well-Grounded Rubyist (Book)](http://www.manning.com/black2/) ch. 3 (read week 3's [BONUS challenge](https://github.com/Devbootcamp/phase-0-unit-1/blob/master/week-3/10-BONUS-challenges/Well-Grounded-Rubyist.md) for a discount code)
 
 
 ## Release 0: [Pseudocode](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/pseudocode.md)

@@ -1,6 +1,6 @@
 [Week 5 Home](../)
 
-# U2.W4: Reverse Cipher Challenge!
+# U2.W5: Reverse Cipher Challenge!
 
 ## Learning Competencies
 - Identify and explain what code is doing

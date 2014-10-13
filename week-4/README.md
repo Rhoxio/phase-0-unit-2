@@ -20,6 +20,8 @@ If you are using the *Well-Grounded Rubyist*, you'll want to take a look at [Wee
 9. [Cultural Blog](9-cultural-blog.md)
 10. [BONUS Challenges](10-BONUS-challenges) *These are optional*
 
+This week you'll want to request feedback on Twitter using the hashtag **#DBCU2W4.** Only other DBC students can actually see your repositories because they are private.
+
 ## Working through the Challenges
 - Fork this (phase-0-unit-2) repository by clicking "Fork" at the top right of the page.
 - Enable "issues" in the settings for the repo, like you did for phase-0-unit-1. This will allow people

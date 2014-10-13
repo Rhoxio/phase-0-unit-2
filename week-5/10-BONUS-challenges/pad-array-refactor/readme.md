@@ -1,6 +1,6 @@
-[Week 4 Home](../../)
+[Week 5 Home](../../)
 
-# U2.W4: Review, Refactor: Pad an Array
+# U2.W5: Review, Refactor: Pad an Array
 
 ## Learning Competencies
 - Identify and explain what code is doing

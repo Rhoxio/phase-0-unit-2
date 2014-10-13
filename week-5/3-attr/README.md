@@ -7,7 +7,6 @@
   - Describe getter and setter methods
   - Use the attr_ methods to simplify your code and pass data between classes
 
-
 ## Summary
 
 You may have run across attr_reader/writer/accessor methods in Ruby code before under class declaration. Instead of considering these to be "magic" methods, we aim to show you what's being done "under the hood" when you invoke these methods.
@@ -40,17 +39,15 @@ Open [release_2.rb](release_2.rb) and look at the code. Read the comments and no
 
 Open [release_3.rb](release_3.rb) like the others. We now added the attr_accessor declaration. Notice how we reduced superflous code.
 
-## Release 4: Use attr yourself!
+## Release 4: Finish refactoring
 
-Go to [my_solution.rb](my_solution.rb). Finish refactoring the code to make the best use of the attr_attributes methods.
+Go to [release_4.rb](release_4.rb). Finish refactoring the code to make the best use of the attr_attributes methods.
 
-Now, make a new class called Kim that initializes an instance of Profile in its initialize method. Doing this allows you to access to the methods you created in class Profile. Make methods called happy_birthday, change_job, and name_change that access the instance variable in Profile and change them. If you are confused about this instruction, it would probably be useful for you to read ch. 3 to 3.3.2 in *The Well-Grounded Rubyist (either edition).* 
+## Release 5: Apply
 
-The ability to use classes in concert is a powerful tool and one you will be using often!
+Attr methods are a great way to have classes communicate their instance variables. Lets practice this with a small example.
 
-If this sounds tricky, think about how initialize a class and call methods. It's easy to over-complicate this when you're first starting, but it will seem a lot easier if you break it down.
-
-You may want to complete challenge [3-drawer-debugger](../3-drawer-debugger) first if you are having problems with this last step.
+Create a class called `NameData` and a class called `Greetings`. `NameData` will have your name as an instance variable, and `Greetings` will have a method that will print a string to the console with a salutation customized to you.
 
 ## Release 5: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
 
