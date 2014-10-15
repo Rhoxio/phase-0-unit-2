@@ -46,3 +46,15 @@ Die.new([1,2,3,4,5,6])
 
 
 # 4. Reflection
+
+=begin
+	
+The code itself is pretty damn simple. The real challenge was figuring out
+how to check if an array is empty. After a little bit of googling, I found
+that booleans are the only way to really go about raising error messages
+unless there is a specific error for a specific type of method or class. 
+
+So, I added the if statement to check if the array itself is empty.
+Stackoverflow is a life saver in these situations. Haha. 
+	
+=end

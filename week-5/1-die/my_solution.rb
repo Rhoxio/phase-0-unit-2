@@ -10,7 +10,7 @@
 # take strings as well, unlike #rand. 
 
 # (I used the same pseudocode mainly because the problem
-# is essentially exactly the same as last week's, just with
+# is essentially the same as last week's, just with
 # non-integers.)
 
 
@@ -31,6 +31,7 @@ class Die
 		@array.count	
 	end
 
+	#this is essentially driver test code
 	def show
 	print sides
 	puts ""
@@ -44,13 +45,19 @@ Die.new(%w(a b c d)).show
 
 # 4. Refactored Solution
 
- 
+# If I think of a way to refactor this, I will revisit it
+# later in the week. I saw someone use #flatten, so that is a possiblity. 
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
 
-
-
-
-
+# Well, you could call my #show method driver test code. It
+# makes sure that the correct values are being output by the methods. 
+# I do this naturally as I look for solutions a lot of the time.
 
 # 5. Reflection 
+=begin
+
+This exercise is pretty much exactly the same as the previous one with
+the way #sample works. Fairly straight-forward. 
+
+=end
