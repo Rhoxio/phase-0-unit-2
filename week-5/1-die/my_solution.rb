@@ -19,7 +19,7 @@ class Die
 	def initialize(array)
 		@array = array
 		if array.empty?
-      	  raise ArgumentError.new("Can't have zero or negative sides")
+      	  raise ArgumentError.new("Can't have an empty array")
     	end
 	end
 
@@ -55,9 +55,11 @@ Die.new(%w(a b c d)).show
 # I do this naturally as I look for solutions a lot of the time.
 
 # 5. Reflection 
+
 =begin
 
 This exercise is pretty much exactly the same as the previous one with
-the way #sample works. Fairly straight-forward. 
+the way #sample works. Fairly straight-forward. I don't think I even changed anything except for the
+driver test code, to be honest. 
 
 =end
