@@ -8,9 +8,9 @@
 
 ## Summary
 This week you will look into a new topic called stereotype threat. DBC is an amazing place, but it's also easy
-to suffer from impostor syndrome or stereotype threat depending on your background. It's a good idea to learn a bit about these concepts to prepare yourself for the possibility. Remember to time-box to about an hour for each blog post!
+to suffer from impostor syndrome or stereotype threat depending on your background. It's a good idea to learn a bit about these concepts to prepare yourself for the possibility. Remember to time-box about an hour for each blog post.
 
-## Release 0: Create the Template
+## Release 0: Copy the Template
 
 In your [USERNAME].github.io/blog directory, copy your blog template into a new HTML file named `c6-stereotype-threat.html`.
 
@@ -29,7 +29,7 @@ Claude M. Steele has spent his life researching minority under-achievement and d
 
 In your post, describe your experiences with stereotype threat and how it affected you. Then identify what you plan to do when you feel stereotype threat or suspect someone else is feeling it. How will you create meaningful feedback or ask for feedback? How will you work to change the environment you're in to make it more welcoming? How will you address it in public?
 
-Go into as much depth feels comfortable for you.
+Go into as much depth as feels comfortable for you.
 
 ## Release 3: Publish
 Link to your blog on the blog/index.html of your site and push your changes.
@@ -40,4 +40,4 @@ Now it's time to show off your work and share your knowledge with your cohort-ma
 Tweet your blog post using **#DBCStereotypeThreat.**
 
 ## Release 5: Read
-Read at least one post another student wrote. Give the author A.S.K (Actionable, specific, and kind) feedback as an issue on their repo or a tweet!
+Read at least one post another student wrote. Give the author A.S.K (Actionable, Specific, and Kind) feedback as an issue on their repo or a tweet!

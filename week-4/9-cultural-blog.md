@@ -8,9 +8,9 @@
 - Hypothesize about potential solutions
 
 ## Summary
-The Tech industry is likely new to many of you, so it's a good idea to know about the various issues facing the industry. In this blog post, you'll be researching a problem in the tech industry and writing a post about what you learned.
+The tech industry is likely new to many of you, so it's a good idea to know about the various issues facing the industry. In this blog post, you'll be researching a problem in the tech industry and writing a post about what you learned.
 
-Please time-box your blog assignment to an hour (max 1.5 hours). Aim for 1 hour.
+Please time-box your blog assignment to an hour (max 1.5 hours).
 
 ## Release 0: New file
 In your [USERNAME].github.io/blog directory, copy your blog template into a new HTML file named `c4-tech-issues.html`.

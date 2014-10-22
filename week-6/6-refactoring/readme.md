@@ -20,19 +20,16 @@ Paste the original unrefactored code in your my_solution.rb, and as you refactor
 - Minimizes need for comments because the code tells you what it is doing
 - Code is formatted with proper indentation for optimal readability
 
-## Release 0: Write [assert](../2-assert-statements) statements
-Take the driver code and turn it into assert statments with valid and invalid card numbers.
+## Release 0: [Pseudocode](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/pseudocode.md)
 
-## Release 1: [Pseudocode](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/pseudocode.md)
-
-## Release 2: Comment the code 
+## Release 1: Comment the code
 Comment each chunk of code in the original solution
 
-## Release 3: [Refactor](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md) the solution for readability
+## Release 2: [Refactor](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md) the solution for readability
 
-## Release 4: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
+## Release 3: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
 
-## Release 5: Push your solution to Github
+## Release 4: Push your solution to Github
 
-## Release 6: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md)
-Write feedback for at least two other solutions!
+## Release 5: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md) (Optional)
+**Optional but HIGHLY encouraged!**

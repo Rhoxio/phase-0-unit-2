@@ -48,7 +48,7 @@ You should be able to shorten your total method to one line using a specific enu
 Make sure your refactored code passes the tests!
 
 ## Release 4: Pseudocode sentence_maker
-Now go through the same process for a method `sentence_maker`. `sentence_maker` which takes an `Array` of strings and returns each element joined into a sentence.
+Now go through the same process for method `sentence_maker`. `sentence_maker` takes an `Array` of strings and returns each element joined into a sentence.
 
 *Note: The first letter should be capitalized and the sentence should end with a period.*
 
@@ -75,7 +75,7 @@ If you want feedback on your code, tweet a link to your repository on twitter us
 
 ## Release 9: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md) (Optional)
 
-Reading other's code is really important for your growth as a developer. You can find other people's code using the instructions in the link above, or by looking it up using the links on Twitter. Read through a couple of different people's solutions and give the authors feedback using issues on GitHub.
+Reading other's code is really important for your growth as a developer. You can find other people's code using the instructions in the link above, or by looking it up using Twitter. Read through a couple of different solutions and give the authors feedback using issues on GitHub.
 
 This type of feedback will not be anonymous. That's ok.
 

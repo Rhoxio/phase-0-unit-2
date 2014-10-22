@@ -12,7 +12,7 @@
 ## Summary
 The N.S.A. just broke Kim Jong Un's cipher that he's been using to give instructions to his military commanders! We wrote the following program to decipher the messages. As the N.S.A.'s best programmer on staff, your job is to refactor the code.
 
-In this challenge, you'll work with a pair to refactor some existing code to make it more readable and follow ruby best practices. Then you will compare your solution with the other solutions. This is a long method. Use your newly-developed skills with classes and driver test code to break this code into a class structure and call the methods within it.
+In this challenge, you'll work with a pair to refactor some existing code to make it more readable and follow Ruby best practices. Then you will compare your solution with the other solutions. This is a long method. Use your newly-developed skills with classes and driver test code to break this code into a class structure and call the methods within it.
 
 ## Release 0: Run the code
 See what the expected output is.
@@ -33,7 +33,7 @@ Use [driver test code](https://github.com/Devbootcamp/phase-0-handbook/blob/mast
 ## Release 4: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
 
 ## Release 5: Push your changes
-(Push your solution) to Github, then request for feedback on twitter using **#DBCU2W5**
+Push your solution to Github, then request feedback on Twitter using **#DBCU2W5**
 
 ## Release 6: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md)
 **Review other solutions on this challenge. This is not optional.**

@@ -1,4 +1,4 @@
-[Week 6 Home](../)
+[Bonus Home](../)
 
 # U2.W6: Testing with Assert Statements
 
@@ -17,9 +17,9 @@ And showed if the code was working correctly by printing `true` or `false`.
 
 This kind of testing is extremely useful when debugging or adding new features (not to mention [TDD](http://en.wikipedia.org/wiki/Test-driven_development), which you'll work with later.)  Think about it: If any of your changes to your code happen to break a case that you have included in your tests, you'll know right away when your test code runs.  Any `false`'s and you know there's a problem, and can see the case that caused it.
 
-Testing in this way is so fundamental to creating stable software, that many testing suites have been developed to address just this issue. (Rspec is one for ruby, and Jasmine for JavaScript.)
+Testing in this way is so fundamental to creating stable software, that many testing suites have been developed to address just this issue. (RSpec is one for Ruby, and Jasmine for JavaScript.)
 
-In this challenge, we're going to write our own simple `assert` method to get in the spirit of these testing frameworks.  This will take us one step closer to understanding Rspec (the code has been driving the red and greens of your exercises).  We'll also be flexing our muscles with blocks!
+In this challenge, we're going to write our own simple `assert` method to get in the spirit of these testing frameworks.  This will take us one step closer to understanding RSpec (the code has been driving the red and greens of your exercises).  We'll also be flexing our muscles with blocks!
 
 You may also choose to watch [Shadi's lecture](https://www.youtube.com/watch?v=7wKEiWF4_qg&list=UUSHMypIB-U6hPrYxpREKmxw) on basic asserts and testing for more information.
 
@@ -42,7 +42,7 @@ What happens?  Write out in pseudocode what is happening with each assert method
 
 ## Release 1: Driver Test Code to Assert Statements
 
-In a previous challenges, you created Driver Test Code which looked something like:
+In a previous challenges, you created Driver Test Code that looked something like:
 
 ```ruby
 card_1 = CreditCard.new(1111111111111111)

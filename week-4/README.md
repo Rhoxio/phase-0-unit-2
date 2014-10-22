@@ -1,12 +1,12 @@
 # Ruby Algorithms
 
-This week you will be working on writing command-line programs focusing on algorithms and basic testing. Some challenges will also have tests already developed using RSpec (a tool for testing ruby code). You will learn how to run these tests on your computer and read them to decide whether you've successfully solved the challenge. NOTE: You are not expected to fully understand or write any RSpec in Phase 0, just be able to read it; RSpec is designed to be readable.
+This week you will be working on writing command-line programs focusing on algorithms and basic testing. Some challenges will also have tests already developed using RSpec (a tool for testing ruby code). You will learn how to run these tests on your computer and read them to decide whether you've successfully solved the challenge. NOTE: You are not expected to fully understand or write any RSpec in Phase 0, just be able to read it. RSpec is designed to be readable.
 
 **Please make sure to follow each step we ask you (in order): write pseudocode, initial solution, refactoring, reflection.**
 
 This week you get a bit more choice on which challenges to do. If you want to go above and beyond, do all of them!
 
-If you are using the *Well-Grounded Rubyist*, you'll want to take a look at [Week 3's bonus challenge](https://github.com/Devbootcamp/phase-0-unit-1/blob/master/week-3/10-BONUS-challenges/Well-Grounded-Rubyist.md) for info on what chapters to read. You don't need to read every chapter thoroughly, skim where you need to. Take more time with concepts you don't feel comfortable with.
+If you are using the *Well-Grounded Rubyist*, you'll want to take a look at [Week 3's bonus challenge](https://github.com/Devbootcamp/phase-0-unit-1/blob/master/week-3/10-BONUS-challenges/Well-Grounded-Rubyist.md) for info on which chapters to read. You don't need to read every chapter thoroughly; skim where you need to. Take more time with concepts you don't feel comfortable with.
 
 ## Challenges
 1. [Add it Up](1-add-it-up)
@@ -32,18 +32,18 @@ You will want to run and modify all files from your local repository on your com
 
 ## Submitting your work
 - You must complete the [week's submission form](http://apply.devbootcamp.com) to "turn in" your work.
-- The week's work is due each Sunday be 11:59pm.
+- The week's work is due each Sunday by 11:59pm.
 
 **If you do not finish by the deadline:**
 - Complete the Unit 2 extension request. (You only get one extension for Unit 2)
 - When the work is complete, turn it in using the [week's submission form](http://apply.devbootcamp.com).
 
 ## Remember your Expectations for the Unit!
-- Pair at least twice this week.  (You need to pair 6 times this unit.)
-- Give feedback for each person you paired with. You need to submit at least 7 pieces of feedback in this unit. (6 for peer-pairing, and 1 GPS.)
+- Pair at least twice this week. *You need to pair* ***6*** *times this unit*
+- Give feedback for each person you paired with. *You need to submit at least 8 pieces of feedback in this unit* (6 for peer-pairing and 2 GPS)
 - Rate at least 7 pieces of [Meta Feedback](https://socrates.devbootcamp.com/feedback) on Socrates. (You need to rate 20 pieces of feedback per unit.)
 
 ## Fetching Changes
-Sometimes we will make changes to the original repository to clarify instructions. You will need to fetch these changes from the master branch when we announce changes on the google+ community. Use [these](https://github.com/Devbootcamp/phase-0-handbook/blob/master/fetching-changes.md) instructions. **Substitute phase-0-unit-2 for each instance of phase-0-unit-1 in the instructions.**
+Sometimes we will make changes to the original repository to clarify instructions. You will need to fetch these changes from the master branch when we announce changes on the Google+ community. Use [these](https://github.com/Devbootcamp/phase-0-handbook/blob/master/fetching-changes.md) instructions. **Substitute phase-0-unit-2 for each instance of phase-0-unit-1 in the instructions.**
 
 ## [Resources](https://github.com/Devbootcamp/phase-0-handbook/blob/master/resources.md)

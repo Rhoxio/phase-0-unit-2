@@ -7,7 +7,7 @@
 - Explain how data structures and classes can model a real-world object
 
 ## Summary
-You've had a LOT of practice with ruby classes this week, so now is the time to teach others about them! Pick something (like a real-world object) you would like to model.
+You've had a LOT of practice with Ruby classes this week, so now is the time to teach others about them! Pick something (like a real-world object) you would like to model.
 
 Remember to time-box to about an hour for each blog post!
 
@@ -29,4 +29,4 @@ Now it's time to show off your work and share your knowledge with your cohort-ma
 Tweet your blog post using **#DBCClass**.
 
 ## Release 5: Read
-Read at least one post another student wrote. Give the author A.S.K (Actionable, specific, and kind) feedback as an issue on their repo or a tweet!
+Read at least one post another student wrote. Give the author A.S.K (Actionable, Specific, and Kind) feedback as an issue on their repo or a tweet!

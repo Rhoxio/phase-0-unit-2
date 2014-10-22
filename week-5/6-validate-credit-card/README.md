@@ -11,19 +11,19 @@
 ## Summary
 Given a credit card number we should be able to validate whether it is valid based on the [Luhn algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm).
 
-While the word [algorithm](http://en.wikipedia.org/wiki/Algorithm) sounds scary you can just think of them as a series of steps you use to solve a specific problem.  An example algorithm:
+While the word [algorithm](http://en.wikipedia.org/wiki/Algorithm) sounds scary you can just think of it as a series of steps you use to solve a specific problem.  An example algorithm:
 
 >1. Heat water until boiling
 >2. Add pasta
->3. If pasta cooked, strain
+>3. If pasta is cooked, strain
 
-The above steps if followed explicitly give us cooked pasta!
+If the above steps are followed we get cooked pasta!
 
 For this challenge, we will need to break down the algorithm into the following steps. You will probably want to break these down into individual methods.
 
-1. Starting with the second to last digit, double every other digit until you reach the first digit
+1. Starting with the second to last digit, double every other digit until you reach the first digit.
 
-2. Sum all the untouched digits and the doubled digits (doubled digits need to be broken apart, 10 becomes 1 + 0)
+2. Sum all the untouched digits and the doubled digits (doubled digits need to be broken apart, 10 becomes 1 + 0).
 
 3. If the total is a multiple of ten, you have received a valid credit card number!
 
@@ -56,7 +56,7 @@ Make sure your code still passes the tests!
 
 ## Release 4: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
 
-## Release 5: Push your solution to Github
+## Release 5: Push your solution to GitHub.
 
 ## Release 6: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md) (Optional)
 **Optional but HIGHLY encouraged!**

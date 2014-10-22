@@ -17,7 +17,7 @@ Write a method `mode` which takes an `Array` of numbers or strings as its input 
 
 If there's only one most-frequent value, it returns a single-element `Array`.
 
-For example,
+For example:
 
 ```ruby
 mode([1,2,3,3])         # => [3]

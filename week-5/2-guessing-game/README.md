@@ -18,7 +18,7 @@ Define an instance method `GuessingGame#guess` which takes an integer called `gu
 
 Define an instance method `GuessingGame#solved?` which returns `true` if the most recent `guess` was correct and `false` otherwise.
 
-For example,
+For example:
 
 ```ruby
 game = GuessingGame.new(10)
@@ -33,7 +33,7 @@ game.guess(10) # => :correct
 game.solved?   # => true
 ```
 
-Or
+Or:
 
 ```ruby
 game = GuessingGame.new rand(100)

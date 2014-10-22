@@ -15,7 +15,7 @@ It should have an `evaluate` instance method which takes as its input a valid RP
 
 Operators and numbers should be separated by a single space.
 
-For example,
+For example:
 
 ```ruby
 calc = RPNCalculator.new

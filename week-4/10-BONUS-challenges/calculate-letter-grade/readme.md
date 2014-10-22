@@ -14,7 +14,7 @@ Create a method `get_grade` that accepts an `Array` of test scores.  Each score 
 
 Compute the average score and return the letter grade as a `String`, i.e., `'A'`, `'B'`, `'C'`, `'D'`, or `'F'`.
 
-For example,
+For example:
 
 ```ruby
 # How studious!
@@ -26,7 +26,7 @@ get_grade([100, 100, 100]) # => 'A'
 ## Release 1: Write your [Initial Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/initial-solution.md)
 
 ## Release 2: Run the tests
-Once your code passes the tests, move on to refactoring
+Once your code passes the tests, move on to refactoring.
 
 ## Release 3: [Refactor](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md) your solution
 Make sure your code still passes the tests!

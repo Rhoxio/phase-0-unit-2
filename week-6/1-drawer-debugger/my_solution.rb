@@ -1,10 +1,8 @@
 # U2.W6: Drawer Debugger
 
-
 # I worked on this challenge [by myself, with: ].
 
-
-# 2. Original Code
+# Original Code
 
 class Drawer
 
@@ -23,7 +21,7 @@ end
 
 def close
 @open = false
-end 
+end
 
 def add_item
 @contents << item
@@ -66,9 +64,9 @@ end
 knife1 = Silverware.new("knife")
 
 silverware_drawer = Drawer.new
-silverware_drawer.add_item(knife1) 
+silverware_drawer.add_item(knife1)
 silverware_drawer.add_item(Silverware.new("spoon"))
-silverware_drawer.add_item(Silverware.new("fork")) 
+silverware_drawer.add_item(Silverware.new("fork"))
 silverware_drawer.view_contents
 
 silverware_drawer.remove_item
@@ -94,10 +92,7 @@ silverware_drawer.view_contents
 raise Exception.new("You don't have a spoon to remove") unless silverware_drawer.contents.include?(spoon)
 silverware_drawer.remove_item(spoon) #What is happening when you run this the first time?
 spoon.eat
-
-
-#BONUS SECTION
-# puts spoon.clean #=> this should be false
+puts spoon.clean #=> this should be false
 
 # DRIVER TESTS GO BELOW THIS LINE
 
@@ -106,4 +101,4 @@ spoon.eat
 
 
 
-# 5. Reflection 
+# Reflection

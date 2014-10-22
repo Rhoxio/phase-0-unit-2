@@ -10,7 +10,7 @@
 
 ## Summary
 
-In this challenge, you are going to make a method that takes an array of names (You'll want to make a list from your Cohort page in Socrates) and outputs a list of accountability groups for three different units. You should try to get everyone into an accountability group of 4, but it's your decision how to deal with cohorts not easily divisible by four.
+In this challenge, you are going to make a method that takes an array of names (you'll want to make a list from your Cohort page in Socrates) and outputs a list of accountability groups for three different units. You should try to get everyone into an accountability group of 4, but it's your decision how to deal with cohorts not easily divisible by four.
 
 You will want to consider:
 - Are there built-in methods to do this in Ruby?

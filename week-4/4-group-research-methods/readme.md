@@ -10,12 +10,11 @@
 ## Summary
 By now you have had some practice looking through the [Ruby Docs](http://ruby-doc.org/). I'm sure you've had some
 difficulty trying to figure out what methods do and how they work. You have probably also
-seen some people using methods you didn't know existed when you looked through other solutions.
-In this challenge, each member of your group will have a specific challenge and you will each practice reading through the docs to find existing enumerable methods and
-use them on `Array`s and `Hash`es.
+seen some people using methods you didn't know existed.
 
-Research and test these methods out thoroughly. You may want to play around with them in IRB to
-figure out exactly how they work before you can implement them properly.
+In this challenge, each member of your group will have a specific challenge and you will each practice reading through the docs to find existing enumerable methods and use them on `Array`s and `Hash`es.
+
+Research and test these methods out. You may want to play around with them in IRB to figure out exactly how they work before you can implement them properly.
 
 You will also want to know a little bit about destructive and non-destructive methods. Destructive methods change the original data permanently. Non-Destructive methods return new data (like a new array or hash) based on what you're doing, but the original data remains the same. For each of these, you will be asked to use destructive or non-destructive methods, so please read the instructions carefully.
 
@@ -28,9 +27,9 @@ Each person has a challenge to solve. This does not need to be done in any order
 
 **Remember: the driver test code needs each method in order to work.**
 
-If you don't have your group-members' solutions, copy, paste, and modify your tests, comment out the originals. Then check it all still works when you get the other solutions.
+If you don't have your group-members' solutions, copy, paste, and modify your tests, and comment out the originals. Then check it all still works when you get the other solutions.
 
-Using the [Ruby Docs](http://ruby-doc.org/) find methods you can use
+Use the [Ruby Docs](http://ruby-doc.org/) find methods you can use
 on arrays and a hashes, and use them to complete each goal.
 
 Once you complete your challenge, Identify and describe the ruby method you implemented. Teach your
@@ -110,7 +109,7 @@ my_deletion_method(my_family_pets_ages, "George")
 
 
 ## Release 1: Teach Others
-Once you complete your challenge, Identify and describe the ruby method you implemented. Teach your
+Once you complete your challenge, identify and describe the ruby method you implemented. Teach your
 accountability group how to use the methods.
 
 ## Release 2: Commit and Push
@@ -124,7 +123,7 @@ Use the [reflection guidelines](https://github.com/Devbootcamp/phase-0-handbook/
 What did you learn about researching and explaining your research to others?
 
 ## Release 4: Update your solution
- When you get all of the solutions, paste them into your file as well. Review the solutions they created. Which existing methods did they use? Try to use them based on the instructions your group-mate included.
+When you get all of the solutions, paste them into your file as well. Review the solutions they created. Which existing methods did they use? Try to use them based on the instructions your group-mate included.
 
 ## Release 5: Commit and Push
 Push your final solution to GitHub.

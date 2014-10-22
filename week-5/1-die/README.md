@@ -8,7 +8,7 @@
 - Find and use built-in Ruby methods to solve challenges
 
 ## Summary
-Working off your previous `Die` class from [Die Class 1](../1-die), implement a new `Die` class which takes an array of strings as its input.  When `Die#roll` is called, it randomly returns one of these strings.  If `Die.new` is passed an empty array, raise an `ArgumentError`.  It should work like this:
+Working off your previous `Die` class from [Die Class 1](../../week-4/7-die-class), implement a new `Die` class which takes an array of strings as its input.  When `Die#roll` is called, it randomly returns one of these strings.  If `Die.new` is passed an empty array, raise an `ArgumentError`.  It should work like this:
 
 ```ruby
 die = Die.new(['A', 'B', 'C', 'D', 'E', 'F'])
