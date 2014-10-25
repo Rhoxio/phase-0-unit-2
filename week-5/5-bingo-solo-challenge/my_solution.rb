@@ -60,7 +60,7 @@ class BingoBoard
   p @n
   p @g
   p @o
-end
+  end
 end
 
 
@@ -71,14 +71,14 @@ end
 =begin
   
 This program does actually sort by columns, but it sorts them "sideways". I could potentially
-just add all of them to am element in an array and run the whole block 
-that sets them again and get the original formatting after I modify @bingo_board. 
+just add all of them to an element in an array and run the whole block 
+that "sets" them again. It would then resemble original formatting of a "real" @bingo_board. 
 That seems really redundant and would, in essence, have no impact on the way the game
 can be played. It would just flip the array upright, essentially.
 
 I could potentially just ditch that whole section of code and just get the b through o 
 variables to their corresponding elements in the array. It woundn't sort by columns, then. It would
-technically sort by rows. It seems to be two sides of the same coin in essence. 
+technically sort by rows. It seems to be two sides of the same coin. 
   
 =end
 
@@ -86,7 +86,7 @@ technically sort by rows. It seems to be two sides of the same coin in essence.
 
 # Release 2: DRIVER TESTS GO BELOW THIS LINE
 
-answer = BingoBoard.new("b", 63).manipulation
+answer = BingoBoard.new("b", 63).manipulation #It works for all imputs of numerals through 100, and takes a letter of "bingo"
 
 # Release 4: Reflection
 
@@ -102,4 +102,4 @@ to a new array with << or something. I didn't see it as being a huge deal as lon
 what it needs to. Printing arrays with new lines mixed in seems overly complicated. You can always just make
 them in to a new array without an output but still output the result with 'p' just for the sake of simplicity.
   
-end
+=end
