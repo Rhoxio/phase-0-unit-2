@@ -21,7 +21,7 @@ You can check the rows of each
 
 class BingoBoard
 
-  attr_reader :row_check
+  #attr_reader :row_check?
 
   def initialize(sel, num, bingo_board)
     #@bingo_board = Array.new(5) {Array(5.times.map{rand(1..100)})}
@@ -29,7 +29,7 @@ class BingoBoard
     @num = num
     @sel = sel.to_s.downcase
 
-    #@b = ['x', 44, 71, 8, 88]
+  #@b = ['x', 44, 71, 8, 88]
 	#@i = [22, 'x', 75, 65, 73]
 	#@n = [83, 85, 'x', 89, 57]
 	#@g = [25, 31, 96, 'x', 51]
@@ -41,12 +41,16 @@ class BingoBoard
     @g = @bingo_board.collect {|index| index[3]}
     @o = @bingo_board.collect {|index| index[4]}
   end
-
-
-#columns = Array.new
-#all_columns = columns.push(@b,@i,@n,@g,@o)
-
-
+=begin
+  public
+  def row_check? #this method can be used to check arrays for all matching instances of any character. I added it to attr_reader so it can be read from everywhere. 
+    if self.uniq.length == 1 #could also just do #count % 5 == 0 for this particular problem.
+      return true
+    else
+      return false
+    end
+  end
+=end
 
 
   def manipulation #original method to check for a matching slot. 
@@ -75,29 +79,31 @@ class BingoBoard
   p @o
  end
 
-  public
-  def row_check #this method can be used to check arrays for all matching instances of any character. I added it to attr_reader so it can be read from everywhere. 
-    if self.uniq.length == 1 #could also just do #count % 5 == 0 for this particular problem.
-      return true
-    else
-      return false
-    end
-  end
 
   def row_ans
-	if @b.row_check == true
+
+  columns = []
+  all_columns = columns.push(@b,@i,@n,@g,@o)
+
+  b = all_columns.collect {|index| index[0]}
+  i = all_columns.collect {|index| index[1]}
+  n = all_columns.collect {|index| index[2]}
+  g = all_columns.collect {|index| index[3]}
+  o = all_columns.collect {|index| index[4]}
+	
+  if b.all? {|x| x == b[0]}
 		puts "true"
 		return true
-	elsif @i.row_check == true
+	elsif i.all? {|x| x == i[0]}
 		puts "true"
 		return true
-	elsif @n.row_check == true
+	elsif n.all? {|x| x == n[0]}
 		puts "true"
 		return true
-	elsif @g.row_check == true
+	elsif g.all? {|x| x == g[0]}
 		puts "true"
 		return true
-	elsif @o.row_check == true
+	elsif o.all? {|x| x == o[0]}
 		puts "true"
 		return true
  	else
@@ -108,32 +114,24 @@ class BingoBoard
 
 
   def column_check
-	columns = []
-	all_columns = columns.push(@b,@i,@n,@g,@o)
 
- 	b = all_columns.collect {|index| index[0]}
- 	i = all_columns.collect {|index| index[1]}
- 	n = all_columns.collect {|index| index[2]}
- 	g = all_columns.collect {|index| index[3]}
- 	o = all_columns.collect {|index| index[4]}
-
-	if b.row_check == true
+	if @b.all? {|x| x == @b[0]}
 		puts "true"
 		return true
-	elsif i.row_check == true
+	elsif @i.all? {|x| x == @i[0]}
 		puts "true"
 		return true
-	elsif n.row_check == true
+	elsif @n.all? {|x| x == @n[0]}
 		puts "true"
 		return true
-	elsif g.row_check == true
+	elsif @g.all? {|x| x == @g[0]}
 		puts "true"
 		return true
-	elsif o.row_check == true
+	elsif @o.all? {|x| x == @o[0]}
 		puts "true"
 		return true
  	else
- 		puts "incorrect"
+ 		puts "false"
  		return false
 	end
   end
@@ -168,7 +166,7 @@ for everything.
 
 # 3. DRIVER TESTS GO BELOW THIS LINE
 test = BingoBoard.new("b", 47, [[47, 44, 71, 8, 88],
-   					           ['x', 'x', 'x', 'x', 'x'],
+   					           [54, 44, 36, 78, 5],
    							   [83, 85, 97, 89, 57],
    							   [25, 31, 96, 68, 51],
    							   [75, 70, 54, 80, 83]]).manipulation #this is a simple check for matching values.
@@ -199,7 +197,7 @@ test4
 # 5. Reflection
 =begin
 	
-I realize that my solution essentially curcumvents the need to deal with nested arrays all the time, but I felt
+I realize that my solution essentially curcumvents the need to deal with nested arrays almost all the time, but I felt
 like this code was much easier to read and devise a solution for once it was broken down in to smaller 
 pieces instead of dealing with "invisible" values all over the place. It is true that you can break it down
 a bit more by actually accessing the nested arrays and pulling values out of them directly, but again, I felt like having the 
