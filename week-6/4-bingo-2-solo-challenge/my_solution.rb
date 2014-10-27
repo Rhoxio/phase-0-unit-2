@@ -4,7 +4,9 @@
 # 1. Pseudocode
 =begin
 	
-You can check the rows of each 
+You can use index values of the instance variables to check for diagonals very easily.
+
+.all? {|x| x == b[0]} might be useful. 
 	
 =end
 
