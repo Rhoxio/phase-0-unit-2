@@ -3,8 +3,8 @@
 # I worked on this challenge [with: Michael Criste].
 
 # EXPLANATION OF require_relative
-# Needs this to run the code correctly.
-#
+# Needs this to run the code correctly. It is a reference to a data sheet that holds all of the values we are going to be calculating. 
+
 require_relative 'state_data' #They are nested hashes. Each value is a hash unto itself. 
 
 class VirusPredictor
@@ -43,7 +43,11 @@ class VirusPredictor
     end
 
 
-    # We tried refactoring it after the GPS
+    # We tried refactoring it after the GPS. What we were getting it was essentially
+    # having it "scale" down. I was thinking about trying a yield, but I was unsure about how to
+    # effectively implement it. I could just make it cascade down, but that wouldn't
+    # be refactoring it, as it would take just as many lines to get to the answer
+    # as the original solution. 
     # x = 200
     # o = 0.4
     # if @population_density >= x
@@ -61,6 +65,12 @@ class VirusPredictor
   def speed_of_spread(population_density, state) #in months
   #   # We are still perfecting our formula here. The speed is also affected
   #   # by additional factors we haven't added into this functionality. 
+  #
+
+  # The same idea was applied here. We used 650 as the "roof" (highest density was 644) and started to count down,
+  # but this gives you huge speed values because of how many times it has to loop to reach
+  # lower values of population_density. I understand the problem, I am just not sure how to go about
+  # breaking this down more than it already is. It seems pretty straight-forward to me. 
   #   x = 650
   #   speed = 0.0
   #   until x <= @population_density
@@ -125,7 +135,7 @@ alaska.virus_effects
 We struggled with the refactoring section of this challenge. We had an idea of how to tackle the
 problem, but to be honest, the original code looks pretty well defined and doesn't really require much refactoring in itself.
 You can see the attempts at logically sequencing a relationship between the numbers, but to be honest, the
-original solution would end up being close to the same length anyway. 
+original solution would end up being close to the same length and complexity anyway. 
 
 The only piece that we were really missing was the fact that you can call the keys and values directly from the state_data sheet. 
 After that, things became a little easier. 
